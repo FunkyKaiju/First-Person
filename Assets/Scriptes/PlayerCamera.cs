@@ -32,6 +32,7 @@ namespace AuraVision.Bryan.FPS.CCC
             transform.localEulerAngles = Vector3.right * cameraVerticalRotation;
 
             player.Rotate(Vector3.up * inputX);
+            
         }
 
     }
